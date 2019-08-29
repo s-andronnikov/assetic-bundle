@@ -1,6 +1,6 @@
 {
     "name": "symfony/assetic-bundle",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Integrates Assetic into Symfony2",
     "keywords": ["assets", "compression", "minification"],
     "homepage": "https://github.com/symfony/AsseticBundle",
