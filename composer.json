@@ -19,7 +19,7 @@
         "symfony/dependency-injection": "~2.3|~3.0|^4.0",
         "symfony/console": "~2.3|~3.0|^4.0",
         "symfony/yaml": "~2.3|~3.0|^4.0",
-        "kriswallsmith/assetic": "^2.0.1"
+        "s-andronnikov/assetic": "^2.0.1"
     },
     "repositories": [
         {
