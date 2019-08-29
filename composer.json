@@ -1,6 +1,6 @@
 {
     "name": "symfony/assetic-bundle",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Integrates Assetic into Symfony2",
     "keywords": ["assets", "compression", "minification"],
     "homepage": "https://github.com/symfony/AsseticBundle",
@@ -19,10 +19,16 @@
         "symfony/dependency-injection": "~2.3|~3.0|^4.0",
         "symfony/console": "~2.3|~3.0|^4.0",
         "symfony/yaml": "~2.3|~3.0|^4.0",
-        "kriswallsmith/assetic": "~1.4"
+        "kriswallsmith/assetic": "^2.0.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/s-andronnikov/assetic.git"
+        }
+    ],
     "require-dev": {
-        "patchwork/jsqueeze": "~1.0",
+        "patchwork/jsqueeze": "~1.0|^2.0",
         "kriswallsmith/spork": "~0.3",
         "symfony/twig-bundle": "~2.3|~3.0|^4.0",
         "symfony/class-loader": "~2.3|~3.0|^4.0",
